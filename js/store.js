@@ -701,7 +701,7 @@ var positions = [
 ];
 
 // 마커 이미지의 이미지 주소입니다
-var imageSrc = '../img/etc/marker.png'; 
+var imageSrc = './img/etc/marker.png'; 
     
 // 현재 표시된 마커들을 저장할 배열
 var markers = [];
