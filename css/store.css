@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+}
+#map {
+    width: 60%;
+    /* height: 1000px; */
+    /* height: calc(100vh - 280px); */
+    height: 100vh;
+}
+#filter_container {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.filter1, .filter2 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+#sido, #sigungu, #search {
+    height: 40px;
+    width: 45%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+button {
+    width: 70px;
+    height: 40px;
+    padding: 0 10px;
+}
+#map_info {
+    /* width: 45%;
+    height: calc(100vh - 248.73px);
+    margin-right: 4vw; */
+    box-sizing: border-box;
+    display: none;
+    margin-top: 50px;
+}
+.map_r {
+    /* background-color: paleturquoise; */
+    width: 40%;
+    height: 100vh;
+    /* height: calc(100vh - 280px); */
+    /* width: 45%; */
+    /* height: calc(100vh - 248.73px); */
+    /* margin-right: 4vw; */
+    box-sizing: border-box;
+    padding: 4vw;
+}
+.info_box { width: 100%; }
+.info_box .title { font-weight: bold; font-size: 1.2em; }
+.info_box .address, .info_box .call, .info_box .time { margin: 15px 0; }

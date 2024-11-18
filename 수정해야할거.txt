@@ -1,0 +1,11 @@
+- index.html 조금 허전한편? (transition 넣을수있으면 넣기)
+- index.html에서 sub_menu clickeventlistener nav 변경안됨
+(카테고리 이동은 O)
+- 반응형
+- store.html 시/도 선택, 시/군/구 선택으로 검색 시 모든 지점 나오도록
+- store.html search filter 디자인 변경
+- store.html .map_r (매장 정보 보이는 부분 디테일하게)
+- menu.html nav 햄버거 버튼으로 변경
+- menu.html transform rotateY 속도 조금 느리게
+- header_footer.html header 높이, 로고 사이즈 줄이기(반응형)
+- 

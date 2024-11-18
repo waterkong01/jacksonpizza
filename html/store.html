@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JACKSON PIZZA</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=eb89b4732cdecef1a4014e5bac5d711a&libraries=services"></script>
+    <link rel="icon" href="../img/logo/jacksonpizza_favicon.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header_footer.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/store.css">
+</head>
+<body>
+<div id="wrap">
+    <div class="header">
+        <div class="logo"><a href="index.html"><img src="../img/logo/jackson_white.png"></a></div>
+        <div class="menu_bar">
+            <div class="menu"><a href="menu.html">MENU</a></div>
+            <div class="store"><a href="store.html">STORE</a></div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="map"></div>
+        <div class="map_r">
+            <div id="filter_container">
+                <div class="filter1">
+                    <select id="sido">
+                        <option value="시/도 선택">시/도 선택</option>
+                        <option value="서울특별시">서울특별시</option>
+                        <option value="경기도">경기도</option>
+                        <option value="인천광역시">인천광역시</option>
+                        <option value="부산광역시">부산광역시</option>
+                        <option value="광주광역시">광주광역시</option>
+                        <option value="대구광역시">대구광역시</option>
+                        <option value="제주특별자치도">제주특별자치도</option>
+                    </select>
+                    <select id="sigungu">
+                        <option value="시/군/구 선택">시/군/구 선택</option>
+                        <!-- 서울특별시 -->
+                        <option value="강남구">강남구</option>
+                        <option value="서대문구">서대문구</option>
+                        <option value="마포구">마포구</option>
+                        <option value="용산구">용산구</option>
+                        <option value="성동구">성동구</option>
+                        <option value="서초구">서초구</option>
+                        <option value="영등포구">영등포구</option>
+                        <option value="은평구">은평구</option>
+                        <option value="양천구">양천구</option>
+                        <option value="광진구">광진구</option>
+                        <option value="송파구">송파구</option>
+                        <option value="강서구">강서구</option>
+                        <option value="구로구">구로구</option>
+                        <option value="강동구">강동구</option>
+    
+                        <!-- 경기도 -->
+                        <option value="남양주시">남양주시</option>
+                        <option value="성남시">성남시</option>
+                        <option value="하남시">하남시</option>
+                        <option value="부천시">부천시</option>
+                        <option value="수원시">수원시</option>
+                        <option value="파주시">파주시</option>
+        
+                        <!-- 인천광역시 -->
+                        <option value="연수구">연수구</option>
+        
+                        <!-- 부산광역시 -->
+                        <option value="수영구">수영구</option>
+        
+                        <!-- 광주광역시 -->
+                        <option value="광산구">광산구</option>
+                        <option value="서구">서구</option>
+        
+                        <!-- 대구광역시 -->
+                        <option value="수성구">수성구</option>
+        
+                        <!-- 제주특별자치도 -->
+                        <option value="제주시">제주시</option>
+                    </select>
+                </div>
+                <div class="filter2">
+                    <input type="text" id="search" placeholder="검색어 입력">
+                    <button onclick="filterMarkers()">검색</button>
+                </div>
+                <div id="map_info">
+                    <div class="info_box">
+                        <div class="title">매장명</div>
+                        <div class="address">주소 </div>
+                        <div class="call">전화</div>
+                        <div class="time">영업시간 </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f_logo"><img src="../img/logo/jackson_white.png"></div>
+        <div class="f_txt">
+            <div class="f_address">서울특별시 용산구 독서당로 46 상가 201호(한남동,한남아이파크)</div>
+            <div class="f_corporation">엘더블유지(주)</div>
+            <div class="f_ceo">잭슨피자 대표: 이일주</div>
+            <div class="f_corporate_registration_number">사업자등록번호: 483-81-01203</div>
+        </div>
+    </div>
+</div>
+<script src="../js/menu_list.js"></script>
+<script src="../js/store.js"></script>
+<script src="../js/index.js"></script>
+</body>
+</html>
